@@ -5,7 +5,7 @@ int main() {
     int num,repeat,count;
     do {
         count = 0;
-        printf("\nВведите целое число: ");
+        printf("\nР’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: ");
         scanf_s("%d", &num);
         while (num > 0)
         {
@@ -15,8 +15,8 @@ int main() {
             }
             num = num / 10;
         }
-        printf("Количество цифр больше 5: %d\n", count);
-        printf("Продолжить? (Да - любое число, Нет - 0): ");
+        printf("РљРѕР»РёС‡РµСЃС‚РІРѕ С†РёС„СЂ Р±РѕР»СЊС€Рµ 5: %d\n", count);
+        printf("РџСЂРѕРґРѕР»Р¶РёС‚СЊ? (Р”Р° - Р»СЋР±РѕРµ С‡РёСЃР»Рѕ, РќРµС‚ - 0): ");
         scanf_s("%d", &repeat);
     } while (repeat != 0);
     return 0;
